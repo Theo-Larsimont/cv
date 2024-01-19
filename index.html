@@ -9,65 +9,112 @@
 </head>
 
 <body>
-<div class="p-4 grid grid-cols-4 bg-amber-500">
-  <div>
-    <img src="" alt="" class="w-60 h-60 bg-amber-50">
+<div class="grid grid-cols-6">
+  <div class="p-4 bg-orange-300">
+    <img src="" alt="" class="w-60 h-60 mb-8 bg-amber-50">
 
-    <div id="profil">
-      <h2>Profil</h2>
-      <div>
-        <h3>ADRESSE</h3>
-        <p>Rue de petit Roeulx, 6230 Obaix</p>
+    <div id="profil" class="flex flex-col mb-8">
+      <h2 class="mb-4 px-2 font-bold border-2 border-black rounded-sm">PROFIL</h2>
+      <div class="my-1.5">
+        <h3 class="font-semibold">ADRESSE</h3>
+        <p>Nivelles</p>
       </div>
-      <div>
-        <h3>E-MAIL</h3>
+      <div class="my-1.5">
+        <h3 class="font-semibold">E-MAIL</h3>
         <p>larsimontheo@gmail.com</p>
       </div>
-      <div>
-        <h3>TELEPHONE</h3>
+      <div class="my-1.5">
+        <h3 class="font-semibold">TELEPHONE</h3>
         <p>+32 479/06.98.89 </p>
       </div>
-      <div>
-        <h3>DATE DE NAISSANCE</h3>
+      <div class="my-1.5">
+        <h3 class="font-semibold">DATE DE NAISSANCE</h3>
         <p>19/02/1999</p>
       </div>
-      <div>
-        <h3>PERMIS</h3>
+      <div class="my-1.5">
+        <h3 class="font-semibold">PERMIS</h3>
         <p>Permis B</p>
       </div>
-      <div id="competance">
-        <div>
+    </div>
+    <div id="competance" class="text-sm font-semibold mb-8">
+      <h2 class="my-4 px-2 font-bold border-2 border-black rounded-sm">COMPETENCES</h2>
+      <div class="mb-3">
+        <div class="flex justify-between">
           <h3>HTML</h3>
-          <div></div>
+          <p>90%</p>
         </div>
-        <div>
-          <h3>CSS</h3>
-          <div></div>
-        </div>
-        <div>
-          <h3>Javascript</h3>
-          <div></div>
-        </div>
-        <div>
-          <h3>SQL</h3>
-          <div></div>
-        </div>
-        <div>
-          <h3>Java</h3>
-          <div></div>
+        <div class="w-full bg-white border-black rounded-2xl overflow-hidden">
+          <div class="w-11/12  h-3 px-2 bg-html"></div>
         </div>
       </div>
-      <div id="langue">
-        <div>
-          <h3>Français</h3>
+      <div class="mb-3">
+        <div class="flex justify-between">
+          <h3>CSS</h3>
+          <p>80%</p>
         </div>
+        <div class="w-full bg-white rounded-2xl overflow-hidden">
+          <div class="w-10/12  h-3 px-2 bg-css"></div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="flex justify-between">
+          <h3>Javascript</h3>
+          <p>45%</p>
+        </div>
+        <div class="w-full bg-white rounded-2xl overflow-hidden">
+          <div class="w-5/12 h-3 px-2 bg-js"></div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="flex justify-between">
+          <h3>SQL</h3>
+          <p>75%</p>
+        </div>
+        <div class="w-full bg-white rounded-2xl overflow-hidden">
+          <div class="w-9/12 h-3 px-2 bg-sql text-right"></div>
+        </div>
+      </div>
+      <div class="mb-3">
+        <div class="flex justify-between">
+          <h3>Java</h3>
+          <p>60%</p>
+        </div>
+        <div class="w-full bg-white rounded-2xl overflow-hidden">
+          <div class="w-7/12 h-3 px-2 bg-red-600"></div>
+        </div>
+      </div>
+    </div>
+    <div id="langue">
+      <h2 class= "my-4 px-2 font-bold border-2 border-black rounded-sm">LANGUES</h2>
+      <div class="flex mb-4 justify-between items-center">
         <div>
-          <h3>Anglais</h3>
+          <h3 class="font-semibold">Français</h3>
+          <p class="text-sm">Native</p>
+        </div>
+        <div class="flex space-x-1">
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+        </div>
+      </div>
+      <div class="flex justify-between items-center">
+        <div>
+          <h3 class="font-semibold">Anglais</h3>
+          <p class="text-sm">Base</p>
+        </div>
+        <div class="flex space-x-1">
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-orange-500 rounded-full"></div>
+          <div class="w-4 h-4 bg-white rounded-full"></div>
+          <div class="w-4 h-4 bg-white rounded-full"></div>
+          <div class="w-4 h-4 bg-white rounded-full"></div>
         </div>
       </div>
     </div>
   </div>
-  <div class="col-span-3">
+  <div class="col-span-5 bg-orange-200">
     <div id="titre"  class="py-4 border-b-2">
       <h1>Théo Larsimont</h1>
       <h2>Stage dévleoppement web</h2>
