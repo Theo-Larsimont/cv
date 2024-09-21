@@ -556,14 +556,6 @@ video {
   position: relative;
 }
 
-.bottom-14 {
-  bottom: 3.5rem;
-}
-
-.bottom-10 {
-  bottom: 2.5rem;
-}
-
 .bottom-16 {
   bottom: 4rem;
 }
@@ -667,6 +659,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .flex-1 {
