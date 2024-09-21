@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" href="css/output.css">
+  <link rel="stylesheet" href="/css/output.css">
 </head>
 
 <body>
-<div class="grid grid-cols-6">
+<div id="content" class="grid grid-cols-6">
   <div class="bg-side-bar">
-    <img src="img/picture-profil.jpg" alt="" class="w-full h-72 mb-8 object-cover">
+    <img src="/img/profil-picture-warm3.jpg" alt="" class="w-full mb-8">
     <div id="profil" class="mx-4 flex flex-col mb-8">
       <h2 class="mb-4 px-2 font-bold border-2 border-black rounded-sm">PROFIL</h2>
       <div class="my-1.5">
@@ -81,10 +81,19 @@
         <div class="mb-3">
           <div class="flex justify-between">
             <h3>Java</h3>
-            <p>60%</p>
+            <p>75%</p>
           </div>
           <div class="w-full bg-white rounded-2xl overflow-hidden shadow-xl ">
-            <div class="w-7/12 h-3 px-2 bg-java"></div>
+            <div class="w-9/12 h-3 px-2 bg-java"></div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <div class="flex justify-between">
+            <h3>Angular</h3>
+            <p>45%</p>
+          </div>
+          <div class="w-full bg-white rounded-2xl overflow-hidden shadow-xl ">
+            <div class="w-5/12 h-3 px-2 bg-angular"></div>
           </div>
         </div>
       </div>
@@ -120,19 +129,17 @@
     </div>
   </div>
   <div class="col-span-5 bg-main">
-    <div id="titre"  class="relative h-72 p-16 bg-title flex justify-center items-center flex-col">
+    <div id="titre"  class="relative h-80 p-16 bg-title flex justify-center items-center flex-col">
       <h1 class="mb-3 p-12 text-7xl font-bold border-4 border-black rounded ">Théo Larsimont</h1>
-      <h2 class="absolute bottom-12 px-2 bg-title text-4xl font-semibold">Stage dévleoppement web</h2>
+      <h2 class="absolute bottom-12 px-2 bg-title text-4xl font-semibold">Stage Développeur Backend</h2>
     </div>
     <div id="presentation" class="py-4 px-16">
       <h2 class="my-3 py-1.5 pl-2 font-bold border-2 border-black rounded">A PROPOS</h2>
-      <p>Je m'appelle Théo Larsimont, j'ai 24 ans et je suis passionné par le développement web. Après une année
-        d'études en informatique à la haute école, j'ai pris la décision de privilégier l'apprentissage sur le terrain.
-        Actuellement en formation à l'IFAPME, je suis à la recherche d'un stage en développement web, qu'il soit
-        rémunéré ou non.
-
-        Ma soif d'apprendre et ma curiosité pour les nouveaux langages de programmation me motivent à relever des défis
-        stimulants dans le domaine du développement web.</p>
+      <p>
+        Je m’appelle Théo Larsimont, j’ai 24 ans et je suis passionné par le développement. Après une année d’études en informatique à la haute école, j’ai décidé de privilégier l’apprentissage sur le terrain.
+        Actuellement en 2ème année de formation à l’IFAPME, je suis à la recherche d’un stage en développement backend, rémunéré ou non.
+        Ma soif d’apprendre et ma curiosité pour les nouveaux langages de programmation me motivent à relever des défis stimulants dans le domaine du développement.
+      </p>
     </div>
     <div id="education" class="py-4 px-16">
       <h2 class="mb-3 py-1.5 pl-2 font-bold border-2 border-black rounded">EDUCATION</h2>
@@ -145,16 +152,16 @@
       <h3 class="mb-4 py-1.5 pl-2 font-bold border-2 border-black rounded">Projets</h3>
       <div class="grid grid-cols-3 gap-4">
         <a href="https://result-summary-bytheo.netlify.app/" target="_blank">
-          <img src="img/summary.png" alt="previsalisation projet summary" class="h-64 w-[410px] rounded-2xl object-cover shadow-xl hover:scale-110 transition duration-700">
+          <img src="/img/summary.png" alt="previsalisation projet summary" class="h-64 w-[410px] rounded-2xl object-cover shadow-xl hover:scale-110 transition duration-700">
         </a>
         <a href="https://site-imc-bytheo.netlify.app/" target="_blank">
-          <img src="img/imc_project.png" alt="previsalisation projet imc" class="h-64 w-[410px] rounded-2xl object-cover shadow-x hover:scale-110 transition duration-700">
+          <img src="/img/imc_project.png" alt="previsalisation projet imc" class="h-64 w-[410px] rounded-2xl object-cover shadow-x hover:scale-110 transition duration-700">
         </a>
         <a href="https://sokobon-bytheo.netlify.app/" target="_blank">
-          <img src="img/sokobon.png" alt="previsalisation projet sokobon" class="h-64 w-[410px] bg-white rounded-2xl object-contain shadow-xl hover:scale-110 transition duration-700">
+          <img src="/img/sokobon.png" alt="previsalisation projet sokobon" class="h-64 w-[410px] bg-white rounded-2xl object-contain shadow-xl hover:scale-110 transition duration-700">
         </a>
         <a href="https://airbnb-copy-bytheo.netlify.app/" target="_blank">
-          <img src="img/airbnb.png" alt="previsalisation projet summary" class="h-64 w-[410px] rounded-2xl object-cover shadow-xl hover:scale-110 transition duration-700">
+          <img src="/img/airbnb.png" alt="previsalisation projet summary" class="h-64 w-[410px] rounded-2xl object-cover shadow-xl hover:scale-110 transition duration-700">
         </a>
       </div>
     </div>
@@ -171,15 +178,15 @@
       <div id="centre-inetrets" class="flex-1">
         <h2 class="mb-3 py-1.5 pl-2 font-bold border-2 border-black rounded">CENTRE INTERETS</h2>
         <ul class="ml-2 list-disc list-inside">
-          <li>Course à pied</li>
+          <li>Sport</li>
           <li>Musique</li>
-          <li>Sport automobile</li>
+          <li>Nouvelles technologies</li>
         </ul>
       </div>
     </div>
   </div>
 </div>
-<script src="js/app.js"></script>
+<script src="/js/app.js"></script>
 </body>
 
 </html>
